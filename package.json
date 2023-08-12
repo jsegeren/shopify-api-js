@@ -28,8 +28,6 @@
   },
   "prettier": "@shopify/prettier-config",
   "scripts": {
-    "prepare": "yarn run build",
-    "postinstall": "yarn run build",
     "test:all": "yarn pretest:adapters && jest && yarn posttest:adapters",
     "test": "jest --selectProjects library",
     "pretest:adapters": "yarn build && yarn rollup -c adapters/__e2etests__/rollup.test-web-api-app.config.js",

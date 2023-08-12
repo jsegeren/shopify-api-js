@@ -21,7 +21,6 @@
     "noImplicitThis": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "outDir": "dist/",
     "lib": [
       "dom",
       "dom.iterable",
